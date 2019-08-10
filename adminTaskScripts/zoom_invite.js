@@ -33,7 +33,11 @@ function zoomInviteAuto(name = "Candidate", time, ampm) {
   recordOption.checked = "checked";
 }
 
-zoomInviteAuto("Eva Pan", "11:00", "AM");
+const inviteeName = "";
+const meetingTime = "";
+const ampm = "";
+
+zoomInviteAuto(inviteeName, meetingTime, ampm);
 
 function saving() {
   const save = document.querySelector(".submit");
